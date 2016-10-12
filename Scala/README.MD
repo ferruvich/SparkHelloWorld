@@ -1,6 +1,6 @@
 Executing file:
-
-/# Your directory layout should look like this
+`
+# Your directory layout should look like this
 $ find .
 .
 ./simple.sbt
@@ -19,3 +19,4 @@ $ YOUR_SPARK_HOME/bin/spark-submit \
   --class "SimpleApp" \
   --master local[4] \
   target/scala-2.11/simple-project_2.11-1.0.jar
+`
