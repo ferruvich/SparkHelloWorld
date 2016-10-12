@@ -15,7 +15,5 @@
   [info] Packaging {..}/{..}/target/scala-2.11/helloWorld_2.11-1.0.jar
 
   # Use spark-submit to run your application
-  $ YOUR_SPARK_HOME/bin/spark-submit \
-    --class "HelloWorld" \
-    target/scala-2.11/helloWorld_2.11-1.0.jar
+  $ YOUR_SPARK_HOME/bin/spark-submit target/scala-2.11/helloWorld_2.11-1.0.jar
 ~~~~
